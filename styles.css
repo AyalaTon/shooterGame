@@ -1,0 +1,70 @@
+.main {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 10fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+    -ms-grid-column-align: center;
+
+    background-color: #f0f0f0;
+}
+
+h1 {
+    justify-self: center;
+}
+
+.container {
+    text-align: center;
+    align-content: center;
+}
+
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border: solid 1px;
+    width: 300px;
+}
+
+.textDiv textarea{
+    resize: none;
+}
+.textDiv input, .textDiv textarea{
+    width: 100%;
+    padding: 0;
+    border: none;
+}
+
+.textDiv{
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    width: 260px;
+    overflow: hidden;
+}
+
+#start_menu {
+    display: block;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.show{
+    display: block !important;
+}
+
+canvas {
+    justify-self: center;
+    width: auto;
+    height: 80vh;
+    aspect-ratio: 4 / 3;
+    border: 1px solid black;
+}

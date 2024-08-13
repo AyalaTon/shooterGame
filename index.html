@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooter Game</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <h1>SHOOTER GAME</h1>
+        <div class="container">
+            <div id="start_menu">
+                <input id="input_nickname" type="text" placeholder="Nickname">
+                <button id="btn_start" onclick="startGame()">Play</button>
+            </div>
+            <canvas class="hidden" id="myCanvas" tabindex="0"></canvas>
+        </div>
+    </div>
+    <div class="sidebar">
+        <p>INFORMACIONES</p>
+    </div>
+    <div class="textDiv">
+        <textarea id="chat" rows="20" cols="50" readonly>
+
+        </textarea>
+        <input id="inputMessage" type="text"/>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
